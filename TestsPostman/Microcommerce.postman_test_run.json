@@ -1,0 +1,257 @@
+{
+	"id": "2d36cd2d-44f5-4f6c-a68b-352d391effda",
+	"name": "Microcommerce",
+	"timestamp": "2020-01-21T02:04:31.577Z",
+	"collection_id": "e9608820-f312-474c-a99d-48358de239bc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d3f6ec9e-b004-49bd-a126-6770e04ab980",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 391,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response is ok (status: 200)": true,
+				"Response is json": true
+			},
+			"testPassFailCounts": {
+				"Response is ok (status: 200)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "0761bb23-7337-433f-ae22-b51a6e97e4f0",
+			"name": "http://localhost:9090/Produits/2",
+			"url": "http://localhost:9090/Produits/2",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response is ok (status: 200)": true,
+				"Response is json": true
+			},
+			"testPassFailCounts": {
+				"Response is ok (status: 200)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "756fb8dc-8b01-462e-90b2-408f05bc4ea7",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 248,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response is Created (status: 201)": true
+			},
+			"testPassFailCounts": {
+				"Response is Created (status: 201)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "0cb70a4b-02dd-4141-8cb0-2ce94d0100be",
+			"name": "http://localhost:9090/Produits/1",
+			"url": "http://localhost:9090/Produits/1",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response is ok (status: 200)": true
+			},
+			"testPassFailCounts": {
+				"Response is ok (status: 200)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "4842e7e5-7078-4d76-8c6b-6848c04c72af",
+			"name": "http://localhost:9090/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response is ok (status: 200)": true
+			},
+			"testPassFailCounts": {
+				"Response is ok (status: 200)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "816eee62-ad57-4e66-bbee-c2275518352d",
+			"name": "http://localhost:9090/Produits/18 (mauvais get: produit inexistant)",
+			"url": "http://localhost:9090/Produits/18",
+			"time": 74,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response is Not Found (status: 404)": true
+			},
+			"testPassFailCounts": {
+				"Response is Not Found (status: 404)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "cc5ee876-067a-42c2-9e2e-5f9f0b547e75",
+			"name": "http://localhost:9090/Produits (mauvais post: nom trop court)",
+			"url": "http://localhost:9090/Produits",
+			"time": 136,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response is Bad Request (status: 400)": true
+			},
+			"testPassFailCounts": {
+				"Response is Bad Request (status: 400)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "33c77c46-7c6a-49de-92f6-51702e044c36",
+			"name": "http://localhost:9090/Produits (mauvais post: produit gratuit)",
+			"url": "http://localhost:9090/Produits",
+			"time": 16,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response is Bad Request (status: 400)": true
+			},
+			"testPassFailCounts": {
+				"Response is Bad Request (status: 400)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "2eb81948-d096-4d9c-bdc0-b5ebcf55ec70",
+			"name": "http://localhost:9090/Produits (mauvais put: produit gratuit)",
+			"url": "http://localhost:9090/Produits",
+			"time": 16,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response is Bad Request (status: 400)": true
+			},
+			"testPassFailCounts": {
+				"Response is Bad Request (status: 400)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"id": "eef4d8c0-9814-4aad-82cd-e52f44452255",
+			"name": "http://localhost:9090/Produits (mauvais put: nom trop long)",
+			"url": "http://localhost:9090/Produits",
+			"time": 14,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response is Bad Request (status: 400)": true
+			},
+			"testPassFailCounts": {
+				"Response is Bad Request (status: 400)": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "d3f6ec9e-b004-49bd-a126-6770e04ab980",
+				"method": "GET"
+			},
+			{
+				"id": "0761bb23-7337-433f-ae22-b51a6e97e4f0",
+				"method": "GET"
+			},
+			{
+				"id": "756fb8dc-8b01-462e-90b2-408f05bc4ea7",
+				"method": "POST"
+			},
+			{
+				"id": "0cb70a4b-02dd-4141-8cb0-2ce94d0100be",
+				"method": "DELETE"
+			},
+			{
+				"id": "4842e7e5-7078-4d76-8c6b-6848c04c72af",
+				"method": "PUT"
+			},
+			{
+				"id": "816eee62-ad57-4e66-bbee-c2275518352d",
+				"method": "GET"
+			},
+			{
+				"id": "cc5ee876-067a-42c2-9e2e-5f9f0b547e75",
+				"method": "POST"
+			},
+			{
+				"id": "33c77c46-7c6a-49de-92f6-51702e044c36",
+				"method": "POST"
+			},
+			{
+				"id": "2eb81948-d096-4d9c-bdc0-b5ebcf55ec70",
+				"method": "PUT"
+			},
+			{
+				"id": "eef4d8c0-9814-4aad-82cd-e52f44452255",
+				"method": "PUT"
+			}
+		]
+	}
+}
